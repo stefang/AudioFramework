@@ -1,0 +1,12 @@
+My basic starting point for playback and analysis of audio files for realtime visuals with a boolean switch to allow a render of image sequences.
+
+Requires the Krister ESS library -> http://www.tree-axis.com/Ess/ and is working in Processing 1.1 (Build 110)
+
+Make sure you amend the audioFilename variable below and make sure the file is in the data directory (to copy a file you can just drag and drop it onto this window "File Added" will appear in the grey status bar below when it's copied and apple+k will show this sketches directory
+
+To switch from realtime playback to rendering an image sequence edit the 'render' boolean to true under the AudioSetup tab
+The image sequence will appear in a directory in the sketch folder call 'out'
+
+The three renderers (drawFFT, drawOctBands, drawSamples) are just examples of how to read the different data ESS and the OCT classes output. You can delete them when you have your own renderers set up, don't forget to remove the lines in the main sketch, in setup() and in render() in the Render tab or Processing will have a hissy fit.
+
+Have fun! http://stefangoodchild.com/
