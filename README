@@ -1,4 +1,6 @@
-My basic starting point for playback and analysis of audio files for realtime visuals with a boolean switch to allow a render of image sequences.
+Following several requests at the Bathcamp talk I did I've cleaned up my basic starting point for playback and analysis of audio files for realtime visuals with a boolean switch to allow a render of image sequences.  It includes the basic three visualizers I showed in the talk as examples.
+
+I'm not a developer by any stretch of the imagination so there are bound to be silly mistakes and oddities in the code that would have a seasoned developer shudder in terror I'm sure but it's a solid starting point and it works. 
 
 Requires the Krister ESS library -> http://www.tree-axis.com/Ess/ and is working in Processing 1.1 (Build 110)
 
@@ -9,4 +11,8 @@ The image sequence will appear in a directory in the sketch folder call 'out'
 
 The three renderers (drawFFT, drawOctBands, drawSamples) are just examples of how to read the different data ESS and the OCT classes output. You can delete them when you have your own renderers set up, don't forget to remove the lines in the main sketch, in setup() and in render() in the Render tab or Processing will have a hissy fit.
 
-Have fun! http://stefangoodchild.com/
+Have fun! 
+
+http://stefangoodchild.com/
+http://vimeo.com/stefangoodchild
+http://twitter.com/stefangoodchild/
